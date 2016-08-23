@@ -2,7 +2,7 @@
 import sys
 from logging import getLogger
 
-from cork import base_backend
+from . import base_backend
 
 log = getLogger(__name__)
 
